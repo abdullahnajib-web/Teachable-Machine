@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Teachable Machine Image Recognition with p5.js Serial Output</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+    <script type="text/javascript" src="tf.min.js"></script>
+    <script type="text/javascript" src="teachablemachine-pose.min.js"></script>
+    <script type="text/javascript" src="p5.min.js"></script>
+    <script type="text/javascript" src="p5.serialport.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<div>Teachable Machine Pose Model</div>
+	<script type="text/javascript">
+		init();
+	</script>
+	<div><canvas id="canvas"></canvas></div>
+	<div id="label-container"></div>
+</body>
+
+</html>
