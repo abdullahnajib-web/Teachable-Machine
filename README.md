@@ -4,3 +4,8 @@ This system employs machine learning models to accurately recognize and classify
 The detected data is seamlessly integrated with Arduino and ESP32 microcontrollers to trigger specific actions. 
 For example, the system can activate a buzzer to provide auditory feedback or control a servo motor to initiate mechanical movements based on the input. 
 Furthermore, the results of these detections are visually displayed in real-time on an LCD screen, enhancing the user experience. This integrated system showcases the potential of machine learning and microcontroller technologies in creating interactive and responsive applications.
+
+# Video User's Guide
+
+https://github.com/abdullahnajib-web/Teachable-Machine/assets/85467959/777792b6-f442-462e-b344-c8416df34f8a
+
